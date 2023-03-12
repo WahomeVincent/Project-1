@@ -3,6 +3,7 @@
     <head>
         <title>Wildlife</title>
         <link rel="stylesheet" href="./styles.css">
+        <script src="./index.js"></script>
     </head>
     <body>
         <header>
@@ -10,46 +11,70 @@
         </header>
        
         <img src="./images/big_five.jpeg" alt="Hero image" class="hero">
-
         <div id="section1">The animals</div>
         
         <div class="animals">
             <div class="animals-detail">
                 <img src="./images/leopard.jpeg" alt="A leoapard">
-                <p>LEOPARD   <sub>view more</sub></p>
+                
+                <button  onclick="showMoreLeopard()">LEOPARD</button>
             </div>
             <div class="animals-detail">
                 <img src="./images/lion.jpeg" alt="A Lion">
-                <p>LION  <sub>view more</p>
+                
+                <button  onclick="showMoreLion()">LION</button>
             </div>
             <div class="animals-detail">
                 <img src="./images/elephant.jpeg" alt="An Elephant">
-                <p>ELEPHANT   <sub>view more</p>
+                
+                <button  onclick="showMoreElephant()">ELEPHANT</button>
             </div>
             <div class="animals-detail">
                 <img src="./images/buffalo.jpeg" alt="A Buffalo">
-                <p>BUFFALO   <sub>view more</p>
+                
+                <button  onclick="showMoreBuffalo()">BUFFALO</button>
             </div>
             <div class="animals-detail">
                 <img src="./images/rhino.jpeg" alt="A Rhino">
-                <p>RHINO   <sub>view more</p>
+                
+                <button  onclick="showMoreRhino()">RHINO</button>
             </div>
             
             
         </div>
         <div>
+            <p id="details">More info</p>
+            <p id="text"></p>
+        </div>
+
+        <fieldset>
+            <legend>Talk to us</legend>
+            <form action="post">
+                <div class="form1">
+                    <input type="textbox" placeholder="Sirname" required/>
+                    <input type="textbox" placeholder="Firstname" required/>
+                    <input type="textbox" placeholder="Middlename" required/>
+                </div>
+                <div class="form2">
+                    <input type="email" placeholder="email" required/>
+                    <input type="textbox" placeholder="Telephone no." required/>
+                    
+                </div>
+                <button class="process" >Submit</button>
+            </form>
+        </fieldset>
+        
 
         <footer>
             <div class="contacts">
-                <p>Contact us:<a href="wildlife.org">Wildlife.org</a></p>
+                <p>Contact us:<a href="https://www.nationalgeographic.com/tv/watch-live/natgeo-wild">Nat Geo</a></p>
                 <p>Email: <a href="vinwahome@gmail.com">vinwahome@gmail.com</a></p>
                 <p>Github: <a href="https://github.com/WahomeVincent">https://github.com/WahomeVincent</a></p>
             </div>
             <div class="title-name">
                 <p>The Big five</p>
             </div>
-        </footer>
-        </div>
+        
 
     </body>
 </html>
