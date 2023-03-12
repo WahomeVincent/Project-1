@@ -14,7 +14,6 @@ header {
     text-align: center;
 }
 
-
 .title-name {
     margin-right: 400px;
     font-size: 50px;
@@ -56,6 +55,44 @@ header {
 
 .animals-detail > p {
     text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #b38600;
+    border-radius: 5px;
+    color: #4d0000;
+}
+
+#details{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    margin-bottom: 20px;
+}
+
+#text {
+    background-color: #39e600;
+    font-size: 30px;
+    font-style: italic;
+}
+
+fieldset {
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px solid brown;
+    justify-items: center;
+}
+
+.process {
+    float: center;
 }
 
 footer {
